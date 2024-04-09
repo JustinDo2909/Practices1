@@ -24,6 +24,7 @@ class AddComponent extends React.Component {
         event.preventDefault();
         if(!this.state.nameJob || !this.state.salary){
             alert('Missing parameter')
+            return;
         }
         console.log('>>> check data input: ', this.state);
         this.props.addNewJob({
