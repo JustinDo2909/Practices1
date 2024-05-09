@@ -1,5 +1,5 @@
 import React from "react";
-
+import {toast} from 'react-toastify';
 
 class AddComponent extends React.Component {
 
@@ -23,7 +23,8 @@ class AddComponent extends React.Component {
     handleSubmit = (event) => {
         event.preventDefault();
         if(!this.state.nameJob || !this.state.salary){
-            alert('Missing parameter')
+            
+            toast.warning('Missing parameter')
             return;
         }
         console.log('>>> check data input: ', this.state);
@@ -37,6 +38,7 @@ class AddComponent extends React.Component {
             nameJob : '',
             salary : ''
         })
+        toast.success('Add Success')
 
     }
 

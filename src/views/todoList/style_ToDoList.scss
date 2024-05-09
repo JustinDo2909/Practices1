@@ -1,29 +1,28 @@
-.print_item{
+.print_item {
+
     padding-top: 4px;
-    text-align: start;
+    text-align: center;
     border-bottom: solid 5px white;
-    border: solid 5px;
-    
 
-
-    .btn-update-job{
-        
-        margin: 10px;
-        color: green;
-        // border-radius: 10px;
-        // width: 15%;
-        // height: 30px;
+  
+    .btn-update-job {
+      margin: 10px;
+      color: green;
+      // border-radius: 10px;
+      // width: 15%;
+      // height: 30px;
     }
-
-    .btn-delete-job{
-        // border-radius: 10px;
-        color: red;
-        // height: 30px;
-        // width: 15%;
-
+  
+    .btn-delete-job {
+      // border-radius: 10px;
+      color: red;
+      // height: 30px;
+      // width: 15%;
     }
-}
-
-.input_add_todo{
+  }
+  
+  .input_add_todo {
     border-radius: 10px;
-}
+  }
+
+ 

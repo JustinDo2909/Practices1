@@ -97,6 +97,7 @@ class MyComponent extends React.Component {
             arrJobs : currentJobs
         })
     }
+    
     render() {
        
 

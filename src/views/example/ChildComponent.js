@@ -123,7 +123,7 @@
 
 
 import React from 'react';
-
+import {  toast } from 'react-toastify';
 class ChildComponent extends React.Component {
     state = {
         showJobs: false
@@ -138,6 +138,8 @@ class ChildComponent extends React.Component {
     handleDeleteItems = (job) => {
         console.log('chech' ,job)
         this.props.deleteJob(job)
+        toast.success('delete success')
+
     }
     render() {
         let { arrJobs } = this.props;
